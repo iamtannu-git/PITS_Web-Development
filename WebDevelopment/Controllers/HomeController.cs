@@ -26,6 +26,11 @@ public class HomeController : Controller
     public IActionResult User()
     {
         return View("~/Views/user/User.cshtml");
+        
+        
+        
+        
+        
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
